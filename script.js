@@ -715,7 +715,9 @@ if (
   allAnswers.includes("Health & Well-being")
 ) {
 
-  productScores.sfcHealth += 10;
+    productScores.sfcHealth += 12;
+
+  productScores.sfcEducation -= 4;
 
 }
 
