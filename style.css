@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  max-width: 950px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.brandBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brandName {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+.hero {
+  background: white;
+  padding: 80px 70px;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.subtext {
+  color: #666;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin: 30px auto 0 auto;
+  background: black;
+  color: white;
+  border: none;
+  padding: 16px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #333;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.optionBtn {
+  width: 100%;
+  background: #f7f7f7;
+  color: #222;
+  border: 1px solid #ddd;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.optionBtn:hover {
+  background: black;
+  color: white;
+}
+
+.selected {
+  background: black !important;
+  color: white !important;
+}
+
+.continueBtn {
+  margin-top: 10px;
+}
+
+.progressWrapper {
+  width: 100%;
+  height: 10px;
+  background: #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: black;
+  transition: 0.4s;
+}
+
+#progressText {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.resultsIntro {
+  text-align: left;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.resultCard {
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+
+.resultCard h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.resultLabel {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.impactList {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.impactList li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.ctaSection {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.secondaryBtn {
+  background: #eaeaea;
+  color: black;
+  margin-left: 10px;
+}
+
+.secondaryBtn:hover {
+  background: #d8d8d8;
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 40px 24px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+}
+.footerNote {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  text-align: center;
+}
