@@ -494,6 +494,7 @@ function updateScores(answer) {
     if (item === "School children") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.digital += 3;
       productScores.pathwayz += 1;
 
@@ -526,6 +527,7 @@ function updateScores(answer) {
 
       productScores.pathwayz += 5;
       productScores.sfcEducation += 3;
+      productScores.sfcHealth += 3;
       productScores.pathwayz += 1;
 
     }
@@ -537,6 +539,7 @@ function updateScores(answer) {
 
       productScores.digital += 5;
       productScores.sfcEducation += 3;
+      productScores.sfcHealth += 3;
       productScores.pathwayz36 += 1;
 
     }
@@ -544,6 +547,7 @@ function updateScores(answer) {
     if (item === "₹40 – 80 lakhs") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.pathwayz += 3;
       productScores.pathwayz36 += 1;
 
@@ -552,6 +556,7 @@ function updateScores(answer) {
     if (item === "₹80 lakhs – ₹1.2 crores") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.pathwayz += 3;
       productScores.pathwayz36 += 1;
 
@@ -571,6 +576,7 @@ function updateScores(answer) {
     if (item === "Single location") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.shakti += 3;
       productScores.pathwayz += 1;
 
@@ -587,6 +593,7 @@ function updateScores(answer) {
     if (item === "Not decided yet") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.pathwayz += 3;
       productScores.pathwayz += 1;
 
@@ -607,6 +614,7 @@ function updateScores(answer) {
 
       productScores.pathwayz += 5;
       productScores.sfcEducation += 3;
+      productScores.sfcHealth += 3;
       productScores.pathwayz += 1;
 
     }
@@ -614,6 +622,7 @@ function updateScores(answer) {
     if (item === "2,000 - 10,000 participants") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcHealth += 5;
       productScores.pathwayz += 3;
       productScores.digital += 1;
 
@@ -624,6 +633,7 @@ function updateScores(answer) {
       productScores.digital += 5;
       productScores.pathwayz += 3;
       productScores.sfcEducation += 1;
+      productScores.sfcHealth += 1;
 
     }
 
@@ -715,7 +725,7 @@ if (
   allAnswers.includes("Health & Well-being")
 ) {
 
-    productScores.sfcHealth += 12;
+    productScores.sfcHealth += 15;
 
   productScores.sfcEducation -= 4;
 
