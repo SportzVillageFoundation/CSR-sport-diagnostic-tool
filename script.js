@@ -699,6 +699,26 @@ if (
 
   }
 
+  // EDUCATION PRIORITY
+
+if (
+  allAnswers.includes("Education")
+) {
+
+  productScores.sfcEducation += 10;
+
+}
+
+// HEALTH PRIORITY
+
+if (
+  allAnswers.includes("Health & Well-being")
+) {
+
+  productScores.sfcHealth += 10;
+
+}
+
 // GENDER + WOMEN & GIRLS
 
 if (
