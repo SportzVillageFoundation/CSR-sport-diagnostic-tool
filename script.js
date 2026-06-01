@@ -551,9 +551,9 @@ function updateScores(answer) {
 
     if (item === "Strengthening community relationships") {
 
-      productScores.pathwayz += 15;
-      productScores.SFCpathwayz += 10;
-      productScores.pathwayz36 += 5;
+      productScores.pathwayz += 20;
+      productScores.SFCpathwayz += 15;
+      productScores.pathwayz36 += 10;
 
     }
 
@@ -611,16 +611,16 @@ function updateScores(answer) {
 
     if (item === "Rural communities") {
 
-      productScores.pathwayz += 5;
-      productScores.pathwayz36 += 3;
-      productScores.pathwayz += 1;
+      productScores.pathwayz += 15;
+      productScores.pathwayz36 += 10;
+      productScores.SFCpathwayz += 8;
 
     }
 
     if (item === "Urban underserved communities") {
 
       productScores.pathwayz += 5;
-      productScores.SFCpathwayz += 4;
+      productScores.SFCpathwayz += 5;
       productScores.sfcEducation += 3;
       productScores.sfcHealth += 3;
 
@@ -713,7 +713,6 @@ function updateScores(answer) {
       productScores.SFCpathwayz += 5;
       productScores.sfcEducation += 3;
       productScores.sfcHealth += 3;
-      productScores.pathwayz += 1;
 
     }
 
@@ -769,8 +768,9 @@ function updateScores(answer) {
     allAnswers.includes("Above ₹1.2 crores")
   ) {
 
-    productScores.pathwayz += 4;
-    productScores.SFCpathwayz += 5;
+    productScores.pathwayz += 10;
+    productScores.SFCpathwayz += 8;
+    productScores.pathwayz36 += 6;
 
   }
 
