@@ -39,7 +39,7 @@ const questions = [
   },
 
   {
-    question: "Who are your primary target groups?",
+    question: "Who are your primary target groups? (Please select up to 2 options)",
     type: "multi",
     options: [
       "School children",
