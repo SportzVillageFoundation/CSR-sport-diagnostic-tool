@@ -521,9 +521,9 @@ function updateScores(answer) {
 
     if (item === "Gender Equality") {
 
-      productScores.sfcGender += 10;
+      productScores.sfcGender += 15;
       productScores.SFCpathwayz += 3;
-      productScores.shakti += 4;
+      productScores.shakti += 6;
       productScores.pathwayz += 1;
 
     }
@@ -551,9 +551,9 @@ function updateScores(answer) {
 
     if (item === "Strengthening community relationships") {
 
-      productScores.pathwayz += 5;
-      productScores.SFCpathwayz += 4;
-      productScores.pathwayz36 += 1;
+      productScores.pathwayz += 15;
+      productScores.SFCpathwayz += 10;
+      productScores.pathwayz36 += 5;
 
     }
 
@@ -565,9 +565,9 @@ function updateScores(answer) {
 
     if (item === "Brand visibility and positioning") {
 
-      productScores.pathwayz += 5;
-      productScores.SFCpathwayz += 4;
-      productScores.pathwayz36 += 3;
+      productScores.pathwayz += 10;
+      productScores.SFCpathwayz += 5;
+      productScores.pathwayz36 += 7;
       productScores.shakti += 1;
       productScores.yogdaan += 3;
 
@@ -594,7 +594,7 @@ function updateScores(answer) {
 
     if (item === "Adolescents / youth") {
 
-      productScores.pathwayz += 3;
+      productScores.pathwayz += 4;
       productScores.SFCpathwayz += 5
       productScores.pathwayz36 += 1;
 
@@ -602,9 +602,9 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 12;
+      productScores.sfcGender += 15;
       productScores.SFCpathwayz += 4;
-      productScores.shakti += 3;
+      productScores.shakti += 10;
       productScores.pathwayz += 1;
 
     }
@@ -694,9 +694,7 @@ function updateScores(answer) {
       productScores.SFCpathwayz += 5;
       productScores.sfcHealth += 5;
       productScores.pathwayz += 3;
-      productScores.pathwayz += 1;
-
-    }
+        }
 
 
     // SCALE
@@ -785,7 +783,7 @@ function updateScores(answer) {
     allAnswers.includes("Women & girls")
   ) {
 
-    productScores.shakti += 4;
+    productScores.shakti += 7;
 
   }
 
@@ -817,7 +815,7 @@ if (
   allAnswers.includes("Education")
 ) {
 
-  productScores.sfcEducation += 10;
+  productScores.sfcEducation += 7;
   productScores.SFCpathwayz += 5;
 
 }
@@ -843,8 +841,8 @@ if (
   allAnswers.includes("Women & girls")
 ) {
 
-  productScores.sfcGender += 8;
-  productScores.shakti += 6;
+  productScores.sfcGender += 10;
+  productScores.shakti += 8;
   productScores.SFCpathwayz += 6;
 
 }
