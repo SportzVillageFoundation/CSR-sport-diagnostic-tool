@@ -602,7 +602,7 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 5;
+      productScores.sfcGender += 8;
       productScores.SFCpathwayz += 4;
       productScores.shakti += 3;
       productScores.pathwayz += 1;
