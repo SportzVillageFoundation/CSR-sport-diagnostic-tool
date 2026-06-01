@@ -909,6 +909,18 @@ if (
 
   }
 
+// COMMUNITY RELATIONSHIPS PRIORITY
+
+if (
+  allAnswers.includes("Strengthening community relationships")
+) {
+
+  productScores.pathwayz += 15;
+  productScores.SFCpathwayz += 12;
+
+  productScores.sfcEducation -= 8;
+  productScores.sfcHealth -= 8;
+}
 
   // GENDER + SOCIAL IMPACT
 
