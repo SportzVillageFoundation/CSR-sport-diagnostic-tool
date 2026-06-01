@@ -953,8 +953,9 @@ function showResults() {
     <div class="resultCard">
 
       <div class="resultLabel">
-        Recommended Approach
+        Primary Recommendation
       </div>
+      
 
       <h3>${primaryProduct.title}</h3>
 
@@ -1008,58 +1009,68 @@ ${primaryProduct.svfImpact ? `
 </ul>
 ` : ""}
 
-      <h3>${secondaryProduct.title}</h3>
+      </div>
 
-      <h4>Why this approach aligns with your priorities</h4>
+<div class="recommendationDivider"></div>
 
-<p>
-  ${secondaryProduct.fit}
-</p>
+<div class="resultCard">
 
-<h4>What these programs typically involve</h4>
+  <div class="resultLabel">
+    Secondary Recommendation
+  </div>
 
-<p>
-  ${secondaryProduct.model}
-</p>
+  <h3>${secondaryProduct.title}</h3>
 
-${secondaryProduct.evidence ? `
-<h4>What does research and implementation experience suggest?</h4>
+  <h4>Why this approach aligns with your priorities</h4>
 
-<p>
-  ${secondaryProduct.evidence}
-</p>
-` : ""}
+  <p>
+    ${secondaryProduct.fit}
+  </p>
 
-<h4>Potential impact areas</h4>
+  <h4>What these programs typically involve</h4>
 
-<ul class="impactList">
+  <p>
+    ${secondaryProduct.model}
+  </p>
 
-  ${secondaryProduct.impacts.map(
-    impact => `<li>${impact}</li>`
-  ).join("")}
+  ${secondaryProduct.evidence ? `
+  <h4>What does research and implementation experience suggest?</h4>
 
-</ul>
+  <p>
+    ${secondaryProduct.evidence}
+  </p>
+  ` : ""}
 
-${secondaryProduct.example ? `
-<h4>Looking for an example of how this can work in practice?</h4>
+  <h4>Potential impact areas</h4>
 
-<p>
-  ${secondaryProduct.example}
-</p>
-` : ""}
+  <ul class="impactList">
 
-${secondaryProduct.svfImpact ? `
-<h4>What does evidence from implementation show?</h4>
+    ${secondaryProduct.impacts.map(
+      impact => `<li>${impact}</li>`
+    ).join("")}
 
-<ul class="impactList">
+  </ul>
 
-  ${secondaryProduct.svfImpact.map(
-    impact => `<li>${impact}</li>`
-  ).join("")}
+  ${secondaryProduct.example ? `
+  <h4>Looking for an example of how this can work in practice?</h4>
 
-</ul>
-` : ""}
+  <p>
+    ${secondaryProduct.example}
+  </p>
+  ` : ""}
 
+  ${secondaryProduct.svfImpact ? `
+  <h4>What does evidence from implementation show?</h4>
+
+  <ul class="impactList">
+
+    ${secondaryProduct.svfImpact.map(
+      impact => `<li>${impact}</li>`
+    ).join("")}
+
+  </ul>
+  ` : ""}
+  
     </div>
 
 
