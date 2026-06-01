@@ -554,6 +554,9 @@ function updateScores(answer) {
       productScores.pathwayz += 25;
       productScores.SFCpathwayz += 15;
       productScores.pathwayz36 += 10;
+      productScores.sfcEducation -= 5;
+      productScores.sfcHealth -= 5;
+      productScores.sfcGender -= 5;
 
     }
 
