@@ -551,7 +551,7 @@ function updateScores(answer) {
 
     if (item === "Strengthening community relationships") {
 
-      productScores.pathwayz += 20;
+      productScores.pathwayz += 25;
       productScores.SFCpathwayz += 15;
       productScores.pathwayz36 += 10;
 
@@ -565,7 +565,7 @@ function updateScores(answer) {
 
     if (item === "Brand visibility and positioning") {
 
-      productScores.pathwayz += 10;
+      productScores.pathwayz += 15;
       productScores.SFCpathwayz += 5;
       productScores.pathwayz36 += 7;
       productScores.shakti += 1;
