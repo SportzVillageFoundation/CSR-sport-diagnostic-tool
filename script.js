@@ -92,7 +92,7 @@ const productDetails = {
 
     fit: `Based on your focus on education and long-term impact, structured sport programs in schools can help improve student engagement, participation, confidence, and overall development among children and adolescents. Schools provide a strong and scalable entry point for introducing structured sport because children are already part of a regular learning environment and can participate consistently over time.
 This type of intervention is particularly relevant as many schools, especially in underserved communities, continue to face challenges related to student engagement, attendance, confidence, and holistic development. At the same time, opportunities for structured sport and play are often limited despite growing evidence that participation in quality sport programs can support learning outcomes, social-emotional development, and more positive school experiences for children and adolescents.`,
-    
+ 
 
     model: `Sport for development programs use sport, movement, and structured play as tools to help children build important life skills alongside physical and emotional development. Similar to other school subjects, these sessions are planned, goal-oriented, and delivered regularly through physical education and structured activity periods.
 Programs are usually implemented in partnership with government schools or charity-aided schools, and delivered by trained facilitators who understand both sport-based learning and child development. Effective models also work closely with teachers, school leaders, and parents by conducting workshops, sports days, and other dialogues to strengthen awareness around the value of structured sport participation and holistic child development.
