@@ -157,6 +157,7 @@ button:hover {
   text-align: left;
   font-size: 16px;
   line-height: 1.7;
+  white-space: pre-line;
 }
 
 .resultCard h3 {
