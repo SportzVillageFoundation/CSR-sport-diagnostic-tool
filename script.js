@@ -287,6 +287,7 @@ SVF’s broader sports excellence initiatives have supported athlete participati
     title: "Technology-Enabled Sport and Physical Activity Programming",
 
     fit: `Based on your focus on scalable implementation, technology-enabled delivery, and long-term sustainability, digital sport and physical activity programs can help expand access to structured sport participation across large geographies and participant groups in a cost-effective manner. These approaches are particularly relevant for organizations looking to strengthen school-based sport ecosystems while building long-term ownership within schools and communities.
+
 Despite growing recognition of the value of structured sport and physical activity, many schools and communities continue to lack access to trained coaches, facilitators, and ongoing implementation support. This challenge becomes even more significant when programs aim to reach large numbers of participants across multiple locations while maintaining quality and consistency. Technology-enabled approaches are increasingly being used to address these gaps by expanding access to quality content, training local champions, and supporting large-scale implementation across diverse geographies.`,
 
     model: `Technology-enabled sport programs use digital tools, videos, and guided learning resources to help teachers, youth leaders, and community members deliver structured sport and physical activity sessions within schools and community settings.
