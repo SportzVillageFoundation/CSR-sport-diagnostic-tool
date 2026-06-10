@@ -1227,15 +1227,19 @@ ${primaryProduct.svfImpact ? `
 
     <div class="ctaSection">
 
-      <button>
-        Request Detailed Proposal
-      </button>
+  <button id="proposalBtn">
+    Request Detailed Proposal
+  </button>
 
-      <button class="secondaryBtn" onclick="location.reload()">
-        Retake Assessment
-      </button>
+  <button id="demoBtn">
+    Request a Live Virtual Walkthrough
+  </button>
 
-   </div>
+  <button class="secondaryBtn" onclick="location.reload()">
+    Retake Assessment
+  </button>
+
+</div>
 
     <div class="footerNote">
       This diagnostic is intended as an exploratory recommendation tool and can be further refined through detailed discussions based on your implementation priorities and context.
