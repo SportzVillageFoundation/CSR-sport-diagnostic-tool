@@ -400,7 +400,7 @@ startBtn.addEventListener("click", () => {
   }
 
 fetch(
-  "https://script.google.com/macros/s/AKfycbyehFlB7qSMgFLEmpkgVU52-xJeNLegXi7NfvdxGC23oADDfqMGApTK9mn1lpfIMHEU/exec",
+  "https://script.google.com/macros/s/AKfycbxew32iGT4elsm5gQmfoN9RTvIsdjShovC7wtxSkuNlIvS4B5A5HMSzAGG3zwUSCpvz/exec",
   {
     method: "POST",
     body: JSON.stringify({
