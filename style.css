@@ -197,7 +197,19 @@ button:hover {
 
 .ctaSection {
   margin-top: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ctaSection button {
+  margin: 0;
+}
+
+button {
+  display: block;
+  margin: 30px auto 0 auto;
 }
 
 .secondaryBtn {
