@@ -1022,6 +1022,44 @@ if (
   }
 
 }
+
+function saveAssessmentData(actionType, primaryTitle, secondaryTitle) {
+
+  fetch(
+    "https://script.google.com/macros/s/AKfycbxew32iGT4elsm5gQmfoN9RTvIsdjShovC7wtxSkuNlIvS4B5A5HMSzAGG3zwUSCpvz/exec",
+    {
+      method: "POST",
+      body: JSON.stringify({
+
+        name: leadData.name,
+        organization: leadData.organization,
+        email: leadData.email,
+        designation: leadData.designation,
+        phone: leadData.phone,
+
+        csrFocus: answers[0]?.answer || "",
+        driver: answers[1]?.answer || "",
+
+        targetGroups: Array.isArray(answers[2]?.answer)
+          ? answers[2].answer.join(", ")
+          : answers[2]?.answer || "",
+
+        investment: answers[3]?.answer || "",
+        geography: answers[4]?.answer || "",
+        scale: answers[5]?.answer || "",
+
+        primaryRecommendation: primaryTitle || "",
+        secondaryRecommendation: secondaryTitle || "",
+
+        action: actionType
+
+      })
+    }
+  );
+
+}
+
+
 // SHOW RESULTS
 
 function showResults() {
@@ -1040,7 +1078,12 @@ function showResults() {
 
   const secondaryProduct = productDetails[secondary];
 
-
+saveAssessmentData(
+  "Assessment Completed",
+  primaryProduct.title,
+  secondaryProduct.title
+);
+  
   questionScreen.innerHTML = `
 
  <h2>Your Recommended Sport-Based Approaches</h2>
