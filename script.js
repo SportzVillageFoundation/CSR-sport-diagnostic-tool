@@ -1025,6 +1025,15 @@ if (
 
 function saveAssessmentData(actionType, primaryTitle, secondaryTitle) {
 
+console.log({
+  csrFocus: answers[0]?.answer,
+  driver: answers[1]?.answer,
+  targetGroups: answers[2]?.answer,
+  investment: answers[3]?.answer,
+  geography: answers[4]?.answer,
+  scale: answers[5]?.answer
+});
+  
   fetch(
     "https://script.google.com/macros/s/AKfycbxew32iGT4elsm5gQmfoN9RTvIsdjShovC7wtxSkuNlIvS4B5A5HMSzAGG3zwUSCpvz/exec",
     {
