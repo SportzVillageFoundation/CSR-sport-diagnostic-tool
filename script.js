@@ -103,7 +103,9 @@ This type of intervention is particularly relevant as many schools, especially i
  
 
     model: `Sport for development programs use sport, movement, and structured play as tools to help children build important life skills alongside physical and emotional development. Similar to other school subjects, these sessions are planned, goal-oriented, and delivered regularly through physical education and structured activity periods.
+
 Programs are usually implemented in partnership with government schools or charity-aided schools, and delivered by trained facilitators who understand both sport-based learning and child development. Effective models also work closely with teachers, school leaders, and parents by conducting workshops, sports days, and other dialogues to strengthen awareness around the value of structured sport participation and holistic child development.
+
 Research from multiple school-based sport initiatives globally has shown positive links between structured sport participation and improvements in attendance, classroom engagement, teamwork, confidence, and social-emotional learning among children and adolescents.`,
 
     impacts: [
@@ -133,6 +135,7 @@ Early exposure to multiple sports and movement experiences is also strongly link
 This type of intervention is becoming increasingly important in India, where recent studies continue to highlight rising levels of physical inactivity among children and young people. Sportz Village’s 13th Annual Health Survey (AHS) also revealed that nearly 2 in 5 children were found to have an unhealthy BMI.`,
 
     model: `School-based sport and physical activity programs use structured sport, movement, and play to improve physical literacy, fitness, confidence, and overall well-being among children and adolescents. Similar to other school subjects, these sessions are planned, age-appropriate, and delivered regularly through physical education periods and structured activity sessions.
+
 Programs are usually delivered by trained facilitators and coaches who understand child development, physical literacy, and safe sport participation. Effective models also work with teachers, school leaders, and parents to strengthen awareness around the importance of regular physical activity and healthy lifestyles.`,
 
     impacts: [
@@ -162,7 +165,9 @@ When designed intentionally, mixed-gender sport programs can help improve comfor
 This type of intervention is particularly important as girls continue to face barriers to participating in sport and physical activity, particularly during adolescence, due to social norms, safety concerns, and unequal access to opportunities. These barriers can limit confidence, leadership development, social participation, and overall well-being, making intentional and inclusive participation spaces increasingly important for ensuring that girls remain active, engaged, and visible within schools and communities.`,
 
     model: `Gender-responsive sport for development programs use structured and intentional sport, movement, and play-based learning to strengthen both physical and social-emotional development among children and adolescents. Sessions are usually age-appropriate, inclusive, and carefully designed to encourage safe and positive mixed-gender interaction through teamwork, communication, leadership, and collaborative play.
+
 Programs are typically delivered by trained facilitators who understand child development, safe sport participation, and gender-responsive approaches. In addition to regular sport participation, sessions are often linked with conversations and awareness around menstrual health and hygiene practices, emotional well-being, gender stereotypes, and respectful interaction - engaging both girls and boys through experiential and play-based learning approaches. Engagement sessions are also conducted with parents and other community members to share learnings around the importance of physical activity for all genders - and how it contributes to personal, professional and social lives.
+
 Evidence from multiple sport for development initiatives globally suggests that structured sport participation in mixed-gender settings can contribute to greater confidence, leadership development, trust-building, and improved social interaction among girls and adolescents.`,
 
     impacts: [
@@ -192,7 +197,9 @@ In addition to physical preparedness, such workshops also help girls strengthen 
 This type of intervention is particularly relevant as concerns around personal safety, harassment, and gender-based violence continue to affect the confidence and freedom of movement of many girls and young women. While broader systemic solutions remain essential, there is growing recognition of the importance of equipping girls with practical self-defense skills, safety awareness, and confidence-building opportunities that strengthen their sense of agency, preparedness, and resilience.`,
 
     model: `Self-defense workshops are designed to introduce girls to practical techniques that help them respond confidently and safely in uncomfortable or potentially unsafe situations. Alongside physical self-defense skills, sessions also include conversations around emotional well-being, identifying unsafe situations, responding to mental trauma, confidence-building, and seeking support when required.
+
 Programs are usually delivered through trained facilitators and instructors in safe and supportive environments, often through weekly workshops or short-term engagement formats across schools and community settings. These approaches also enable organizations to reach larger groups of girls within shorter implementation timelines.
+
 Concerns around personal safety, harassment, and gender-based violence continue to affect the confidence and freedom of movement of many girls and young women. While broader systemic solutions are essential, there is growing recognition of the importance of equipping girls with practical self-defense skills, safety awareness, and confidence-building opportunities that strengthen their sense of agency and preparedness.`,
 
     impacts: [
@@ -216,7 +223,9 @@ This type of intervention is particularly relevant as many young people, especia
 Because meaningful developmental and excellence outcomes take time to achieve, these models are typically designed as multi-year initiatives with a minimum implementation horizon of three years. Sustained engagement enables participants to benefit from both foundational development opportunities and structured pathways for progression within sport.`,
 
     model: `The model usually begins with a structured sport for development program delivered through schools and community ecosystems. These foundational programs focus on regular sport participation, physical literacy, social-emotional learning, leadership development, school engagement, and healthy lifestyles among children and adolescents. School sports days/events are also held to promote healthy competition amongst the participants.
+
 Alongside broad-based participation, selected students and youth with demonstrated interest and talent potential are identified for structured sports excellence pathways. These participants receive sport-specific coaching, mentorship, access to training opportunities, and support such as kits, equipment, infrastructure access, tournament participation, trials, and exposure opportunities.
+
 The developmental focus of the foundational layer is centered around improving engagement, confidence, social-emotional learning, and well-being, while the excellence pathway focuses on enabling progression into higher-performance ecosystems such as academies, clubs, district/state pathways, scholarships, and competitive opportunities.`,
 
     impacts: [
@@ -275,7 +284,9 @@ Many promising athletes face significant financial, logistical, and developmenta
 Because of the specialized nature of support provided, these programs are typically high-investment and high-visibility initiatives focused on a smaller group of athletes with demonstrated competitive potential.`,
 
     model: `High-performance athlete support programs usually work with athletes who are already participating at district, state, or higher competitive levels. Athletes are identified through existing sport networks, federations, academies, competitions, and community outreach processes, with some programs also conducting targeted scouting and trials to identify promising talent requiring support.
+
 Support provided is often holistic and designed to help athletes sustain participation and progression within competitive sport ecosystems. This may include financial stipends, coaching support, physiotherapy and rehabilitation access, nutrition guidance, tournament travel support, training camp participation, mental well-being support, career awareness workshops, and anti-doping education.
+
 The overall objective is not only to improve competitive performance, but also to create safer, more sustainable, and development-oriented pathways for athletes navigating high-performance sport environments.`,
 
     impacts: [
@@ -298,10 +309,10 @@ SVF’s broader sports excellence initiatives have supported athlete participati
 Despite growing recognition of the value of structured sport and physical activity, many schools and communities continue to lack access to trained coaches, facilitators, and ongoing implementation support. This challenge becomes even more significant when programs aim to reach large numbers of participants across multiple locations while maintaining quality and consistency. Technology-enabled approaches are increasingly being used to address these gaps by expanding access to quality content, training local champions, and supporting large-scale implementation across diverse geographies.`,
 
     model: `Technology-enabled sport programs use digital tools, videos, and guided learning resources to help teachers, youth leaders, and community members deliver structured sport and physical activity sessions within schools and community settings.
-The model usually begins with capacity-building workshops conducted in partnership with schools, local institutions, and in some cases, state education bodies and government stakeholders. Teachers and youth leaders who demonstrate interest and motivation to lead sport activities are identified and trained through initial and refresher workshops focused on structured sport delivery, physical literacy, and activity facilitation.
+The model usually begins with capacity-building workshops conducted in partnership with schools, local institutions, and in some cases, state education bodies and government stakeholders. Subject teachers, PE teachers, and youth leaders who demonstrate interest and motivation to lead sport activities are identified and trained through initial and refresher workshops focused on structured sport delivery, physical literacy, and activity facilitation.
 
 Participants are then provided with digital content and guided implementation support that enables them to conduct regular sport and movement-based sessions independently within their own settings.
-To strengthen implementation quality and long-term adoption, programs often include an initial handholding phase where trained coordinators or instructors regularly visit schools and communities over a 6-8 month period to provide mentoring, troubleshooting support, and implementation guidance.
+To strengthen implementation quality and long-term adoption, programs often include an initial handholding phase where trained coordinators or instructors regularly visit schools and communities, which differs based on the needs, to provide mentoring, troubleshooting support, and implementation guidance.
 
 Over time, this approach helps schools and communities gradually take ownership of structured sport participation while enabling large-scale outreach and more sustainable implementation models.`,
 
@@ -325,7 +336,9 @@ These approaches are particularly effective for organizations looking to create 
 
     model: `Corporate employee engagement through sport typically combines volunteering, mentorship, and community participation opportunities within school and community-based sport initiatives.
 Employees may participate through activities such as supporting sport events, mentoring young participants, facilitating engagement activities, leading awareness sessions, participating in community sports days, or contributing professional skills and expertise to support implementation.
+
 Programs are usually designed to be flexible and adaptable based on employee availability, organizational priorities, and implementation contexts. Because sport naturally creates interactive and collaborative environments, these initiatives often help strengthen employee participation, team bonding, and connection with communities in a more engaging and informal manner.
+
 Such programs can also be integrated into larger CSR initiatives to strengthen visibility, employee ownership, and long-term organizational involvement in community development efforts.`,
 
     impacts: [
