@@ -611,7 +611,7 @@ function updateScores(answer) {
 
     if (item === "Health & Well-being") {
 
-      productScores.sfcHealth += 5;
+      productScores.sfcHealth += 12;
       productScores.SFCpathwayz += 4;
       productScores.digital += 3;
       productScores.sfcEducation += 1;
@@ -661,7 +661,7 @@ function updateScores(answer) {
 
     if (item === "Leveraging technology") {
 
-      productScores.digital += 5;
+      productScores.digital += 10;
 
     }
 
@@ -704,7 +704,7 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 60;
+      productScores.sfcGender += 70;
       productScores.SFCpathwayz += 4;
       productScores.shakti += 30;
       productScores.pathwayz += 1;
