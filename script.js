@@ -399,6 +399,32 @@ startBtn.addEventListener("click", () => {
 
   }
 
+fetch(
+  "https://script.google.com/macros/s/AKfycbyehFlB7qSMgFLEmpkgVU52-xJeNLegXi7NfvdxGC23oADDfqMGApTK9mn1lpfIMHEU/exec",
+  {
+    method: "POST",
+    body: JSON.stringify({
+      name: leadData.name,
+      organization: leadData.organization,
+      email: leadData.email,
+      designation: leadData.designation,
+      phone: leadData.phone,
+
+      csrFocus: "",
+      driver: "",
+      targetGroups: "",
+      investment: "",
+      geography: "",
+      scale: "",
+
+      primaryRecommendation: "",
+      secondaryRecommendation: "",
+
+      action: "Assessment Started"
+    })
+  }
+);
+  
   landingScreen.classList.add("hidden");
 
   questionScreen.classList.remove("hidden");
