@@ -10,6 +10,13 @@ const optionsContainer = document.getElementById("optionsContainer");
 
 const progressText = document.getElementById("progressText");
 
+let leadData = {
+  name: "",
+  organization: "",
+  email: "",
+  designation: "",
+  phone: ""
+};
 
 // QUESTIONS
 
@@ -362,6 +369,35 @@ let multiAnswers = [];
 // START BUTTON
 
 startBtn.addEventListener("click", () => {
+
+  leadData.name =
+    document.getElementById("leadName").value;
+
+  leadData.organization =
+    document.getElementById("leadOrganization").value;
+
+  leadData.email =
+    document.getElementById("leadEmail").value;
+
+  leadData.designation =
+    document.getElementById("leadDesignation").value;
+
+  leadData.phone =
+    document.getElementById("leadPhone").value;
+
+  if (
+    !leadData.name ||
+    !leadData.organization ||
+    !leadData.email
+  ) {
+
+    alert(
+      "Please complete Name, Organization and Email before starting the assessment."
+    );
+
+    return;
+
+  }
 
   landingScreen.classList.add("hidden");
 
