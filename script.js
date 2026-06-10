@@ -1247,4 +1247,35 @@ ${primaryProduct.svfImpact ? `
 
   `;
 
-}
+document
+  .getElementById("proposalBtn")
+  .addEventListener("click", () => {
+
+    saveAssessmentData(
+      "Proposal Request",
+      primaryProduct.title,
+      secondaryProduct.title
+    );
+
+    alert(
+      "Thank you for your interest. A member of the Sportz Village Foundation team will contact you regarding a detailed proposal."
+    );
+
+});
+
+document
+  .getElementById("demoBtn")
+  .addEventListener("click", () => {
+
+    saveAssessmentData(
+      "Live Virtual Walkthrough Request",
+      primaryProduct.title,
+      secondaryProduct.title
+    );
+
+    alert(
+      "Thank you for your interest. A member of the Sportz Village Foundation team will contact you to schedule a virtual walkthrough."
+    );
+
+});
+  }
