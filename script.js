@@ -84,8 +84,8 @@ const questions = [
     options: [
       "100 - 500 participants",
       "500 - 2,000 participants",
-      "2,000 - 10,000 participants",
-      "10,000+ participants"
+      "2,000 - 5,000 participants",
+      "5,000+ participants"
     ]
   }
 
@@ -818,7 +818,7 @@ function updateScores(answer) {
 
     }
 
-    if (item === "2,000 - 10,000 participants") {
+    if (item === "2,000 - 5,000 participants") {
 
       productScores.sfcEducation += 4;
       productScores.SFCpathwayz += 5;
@@ -828,7 +828,7 @@ function updateScores(answer) {
 
     }
 
-    if (item === "10,000+ participants") {
+    if (item === "5,000+ participants") {
 
       productScores.digital += 5;
       productScores.SFCpathwayz += 4;
@@ -848,7 +848,7 @@ function updateScores(answer) {
   // HIGH SCALE + LOW BUDGET
 
   if (
-    allAnswers.includes("10,000+ participants")
+    allAnswers.includes("5,000+ participants")
     &&
     (
       allAnswers.includes("₹25 – 40 lakhs")
