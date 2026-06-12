@@ -112,16 +112,37 @@ const productDetails = {
 
     title: "School-Based Sport for Development Programming",
 
-    fit: `Based on your focus on education and long-term impact, structured sport programs in schools can help improve student engagement, participation, confidence, and overall development among children and adolescents. Schools provide a strong and scalable entry point for introducing structured sport because children are already part of a regular learning environment and can participate consistently over time.
+    fit:`
+<p>
+Based on your focus on education, school-aged children, and long-term social impact, school-based sport programs can help strengthen student engagement, participation, and holistic development.
+</p>
 
-This type of intervention is particularly relevant as many schools, especially in underserved communities, continue to face challenges related to student engagement, attendance, confidence, and holistic development. At the same time, opportunities for structured sport and play are often limited despite growing evidence that participation in quality sport programs can support learning outcomes, social-emotional development, and more positive school experiences for children and adolescents.`,
+<p>
+Many children, particularly in underserved communities, lack access to structured opportunities that build life skills, confidence, and physical literacy. Schools provide a scalable platform to address this gap by integrating sport into the learning experience and engaging children consistently over time.
+</p>
+
+<ul class="impactList">
+  <li>Uses existing school systems to reach children regularly</li>
+  <li>Supports educational, social, and emotional development</li>
+  <li>Creates engaging and experiential learning opportunities</li>
+  <li>Encourages long-term participation and retention</li>
+</ul>
+`,
  
 
-    model: `Sport for development programs use sport, movement, and structured play as tools to help children build important life skills alongside physical and emotional development. Similar to other school subjects, these sessions are planned, goal-oriented, and delivered regularly through physical education and structured activity periods.
+    model: `
+<p>
+Effective school-based sport programs combine structured physical activity with intentional learning outcomes. Delivery is typically integrated into the school ecosystem and supported by trained facilitators and educators.
+</p>
 
-Programs are usually implemented in partnership with government schools or charity-aided schools, and delivered by trained facilitators who understand both sport-based learning and child development. Effective models also work closely with teachers, school leaders, and parents by conducting workshops, sports days, and other dialogues to strengthen awareness around the value of structured sport participation and holistic child development.
-
-Research from multiple school-based sport initiatives globally has shown positive links between structured sport participation and improvements in attendance, classroom engagement, teamwork, confidence, and social-emotional learning among children and adolescents.`,
+<ul class="impactList">
+  <li>Structured sport and physical education sessions</li>
+  <li>Physical literacy and life skills curricula</li>
+  <li>Training and support for teachers and facilitators</li>
+  <li>Engagement with school leaders and parents</li>
+  <li>Monitoring of participation and development outcomes</li>
+</ul>
+`,
 
     impacts: [
       "Improved student engagement and school attendance",
@@ -1252,22 +1273,22 @@ saveAssessmentData(
 
      <h4>Why this approach aligns with your priorities</h4>
 
-<p>
+<div class="contentBlock">
   ${primaryProduct.fit}
-</p>
+</div>
 
 <h4>What these programs typically involve</h4>
 
-<p>
+<div class="contentBlock">
   ${primaryProduct.model}
-</p>
+</div>
 
 ${primaryProduct.evidence ? `
 <h4>What does research and implementation experience suggest?</h4>
 
-<p>
+<div class="contentBlock">
   ${primaryProduct.evidence}
-</p>
+</div>
 ` : ""}
 
 <h4>Potential impact areas</h4>
@@ -1283,9 +1304,9 @@ ${primaryProduct.evidence ? `
 ${primaryProduct.example ? `
 <h4>Looking for an example of how this can work in practice?</h4>
 
-<p>
+<div class="contentBlock">
   ${primaryProduct.example}
-</p>
+</div>
 ` : ""}
 
 ${primaryProduct.svfImpact ? `
