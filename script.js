@@ -130,7 +130,7 @@ Many children, particularly in underserved communities, lack access to structure
 `,
  
 
-    model: `
+    model:`
 <p>
 Effective school-based sport programs combine structured physical activity with intentional learning outcomes. Delivery is typically integrated into the school ecosystem and supported by trained facilitators and educators.
 </p>
@@ -145,18 +145,23 @@ Effective school-based sport programs combine structured physical activity with 
 `,
 
     impacts: [
-      "Improved student engagement and school attendance",
-      "Increased participation in school and physical activity programs",
-      "Development of teamwork, leadership, and life skills",
-      "Improved confidence and peer interaction"
+      "Improved student engagement and attendance",
+    "Increased participation in physical activity",
+    "Development of teamwork, leadership, and life skills",
+    "Improved confidence and peer interaction",
+    "More inclusive and positive school environments"
     ],
 
-  example: `SVF currently implements school-based sport for development initiatives across 22+ states in India, reaching over 80,000 young people annually through structured sport and physical education programming. Through the Sport for Change initiative, SVF delivers the EduSports curriculum for children in Grades 1-6, focused on foundational movement and physical literacy development. For adolescents in Grades 6-9, the MILES curriculum supports leadership, life skills, and youth development through sport-based engagement.`,
+  example: `
+    <p>
+      SVF currently implements school-based sport for development initiatives across 22+ states in India, reaching more than 80,000 children and adolescents annually. Through its Sport for Change initiative, SVF combines structured sport participation with evidence-based curricula designed to support physical literacy, life skills, and youth development.
+    </p>
+  `,
 
   svfImpact: [
     "22% improvement in students' likelihood of achieving higher grades",
     "9% improvement in classroom attendance",
-    "12% increase in active classroom participation over the academic year"
+    "12% increase in active classroom participation"
   ]
   },
 
@@ -164,15 +169,36 @@ Effective school-based sport programs combine structured physical activity with 
 
     title: "School-Based Sport and Physical Activity Programming",
 
-    fit: `Based on your focus on health and well-being, structured sport and physical activity programs in schools can help children build healthier habits, improve physical fitness, and increase regular participation in movement-based activities from an early age. Schools provide an effective setting for introducing consistent and structured physical activity because children can participate regularly within a familiar learning environment.
+    fit: `
+<p>
+Based on your focus on health and well-being, structured sport and physical activity programs can help children build healthier habits, improve physical fitness, and increase regular participation in movement-based activities from an early age.
+</p>
 
-Early exposure to multiple sports and movement experiences is also strongly linked to higher likelihood of lifelong participation in physical activity and healthier lifestyle behaviors in later years. Regular participation in structured sport has been linked to improvements in cardiovascular health, flexibility, endurance, mobility, confidence, and overall physical well-being among children and adolescents.
+<p>
+This is particularly important in India, where rising levels of physical inactivity are affecting children's health and development. Early exposure to sport and movement is strongly linked to improved physical fitness, confidence, and lifelong participation in healthy lifestyles.
+</p>
 
-This type of intervention is becoming increasingly important in India, where recent studies continue to highlight rising levels of physical inactivity among children and young people. Sportz Village’s 13th Annual Health Survey (AHS) also revealed that nearly 2 in 5 children were found to have an unhealthy BMI.`,
+<ul class="impactList">
+  <li>Encourages regular physical activity from an early age</li>
+  <li>Promotes healthy lifestyle habits and well-being</li>
+  <li>Builds confidence through movement and sport participation</li>
+  <li>Supports long-term physical literacy and active living</li>
+</ul>
+`,
 
-    model: `School-based sport and physical activity programs use structured sport, movement, and play to improve physical literacy, fitness, confidence, and overall well-being among children and adolescents. Similar to other school subjects, these sessions are planned, age-appropriate, and delivered regularly through physical education periods and structured activity sessions.
+    model: `
+<p>
+School-based programs use structured sport, movement, and play to improve physical literacy, fitness, and overall well-being. Sessions are integrated into the school environment and delivered by trained facilitators, with support from teachers and school leaders.
+</p>
 
-Programs are usually delivered by trained facilitators and coaches who understand child development, physical literacy, and safe sport participation. Effective models also work with teachers, school leaders, and parents to strengthen awareness around the importance of regular physical activity and healthy lifestyles.`,
+<ul class="impactList">
+  <li>Structured sport and physical education sessions</li>
+  <li>Age-appropriate physical literacy curriculum</li>
+  <li>Training and support for teachers and facilitators</li>
+  <li>Engagement with school leaders and parents</li>
+  <li>Monitoring of participation and fitness outcomes</li>
+</ul>
+`,
 
     impacts: [
       "Increased participation in regular physical activity",
@@ -181,7 +207,11 @@ Programs are usually delivered by trained facilitators and coaches who understan
       "Increased awareness around health and well-being"
     ],
 
-  example: `SVF currently implements structured school and community-based sport and physical activity initiatives across 22+ states in India, reaching over 80,000 young people annually through physical literacy, sport participation, and youth development programming.`,
+  example: `
+    <p>
+      SVF currently implements school and community-based sport and physical activity initiatives across 22+ states in India, reaching over 80,000 young people annually through physical literacy, sport participation, and youth development programming.
+    </p>
+  `,
 
   svfImpact: [
     "9% improvement in Fitness Quotient (FQ), including strength, endurance, and flexibility",
@@ -194,32 +224,57 @@ Programs are usually delivered by trained facilitators and coaches who understan
 
     title: "Gender-Responsive School-Based Sport Programming",
 
-    fit: `Based on your focus on gender equality and inclusion, structured sport programs in schools can help create safe and supportive spaces where girls build confidence, leadership skills, self-expression, and greater participation in school and community life. Schools provide an effective environment for introducing regular mixed-gender sport participation because they allow children and adolescents to engage consistently within familiar and supervised settings.
+    fit: `
+<p>
+Based on your focus on gender equality and inclusion, structured sport programs can help create safe and supportive spaces where girls build confidence, leadership skills, self-expression, and greater participation in school and community life.
+</p>
 
-When designed intentionally, mixed-gender sport programs can help improve comfort in interaction, strengthen mutual respect, and challenge harmful stereotypes around gender roles and participation from an early age.
+<p>
+Many girls continue to face barriers to participation in sport, leadership opportunities, and social spaces. When designed intentionally, sport programs can help challenge gender stereotypes, strengthen confidence, and promote positive interaction and mutual respect among girls and boys from an early age.
+</p>
 
-This type of intervention is particularly important as girls continue to face barriers to participating in sport and physical activity, particularly during adolescence, due to social norms, safety concerns, and unequal access to opportunities. These barriers can limit confidence, leadership development, social participation, and overall well-being, making intentional and inclusive participation spaces increasingly important for ensuring that girls remain active, engaged, and visible within schools and communities.`,
+<ul class="impactList">
+  <li>Creates safe and inclusive spaces for girls to participate and leady age</li>
+  <li>Encourages confidence, self-expression, and agency</li>
+  <li>Promotes positive mixed-gender interaction and teamwork</li>
+  <li>Challenges harmful gender norms and stereotypes</li>
+</ul>
+`,
 
-    model: `Gender-responsive sport for development programs use structured and intentional sport, movement, and play-based learning to strengthen both physical and social-emotional development among children and adolescents. Sessions are usually age-appropriate, inclusive, and carefully designed to encourage safe and positive mixed-gender interaction through teamwork, communication, leadership, and collaborative play.
+    model: `
+<p>
+Gender-responsive sport programs use structured sport, movement, and play-based learning to support physical, social, and emotional development. Sessions are designed to encourage participation, leadership, teamwork, and respectful interaction among children and adolescents.
+</p>
 
-Programs are typically delivered by trained facilitators who understand child development, safe sport participation, and gender-responsive approaches. In addition to regular sport participation, sessions are often linked with conversations and awareness around menstrual health and hygiene practices, emotional well-being, gender stereotypes, and respectful interaction - engaging both girls and boys through experiential and play-based learning approaches. Engagement sessions are also conducted with parents and other community members to share learnings around the importance of physical activity for all genders - and how it contributes to personal, professional and social lives.
-
-Evidence from multiple sport for development initiatives globally suggests that structured sport participation in mixed-gender settings can contribute to greater confidence, leadership development, trust-building, and improved social interaction among girls and adolescents.`,
+<ul class="impactList">
+  <li>Structured sport and physical education sessions</li>
+  <li>Menstrual health, well-being, and gender awareness discussions and lesson plans</li>
+  <li>Trained facilitators using gender-responsive approaches</li>
+  <li>Engagement with school leaders and parents</li>
+  <li>Engagement with parents, teachers, and community stakeholders</li>
+</ul>
+`,
 
     impacts: [
-      "Improved confidence, agency, and leadership skills among participating girls",
+      "Improved confidence, agency, and leadership skills among girls",
       "Increased participation in social spaces and self-expression",
-      "Improved school attendance and retention, particularly among adolescent girls",
-      "Greater awareness and understanding around gender inclusion and stereotypes"
+      "Improved school attendance and retention among adolescent girls",
+      "Greater awareness of gender inclusion and equality",
+      "Reduced risk of school dropout amongst girls"
     ],
 
-  example: `Through the Sport for Change initiative, SVF implements mixed-gender school and community-based sport programming designed to create safe and inclusive participation spaces for girls and adolescents. In addition to regular structured sport participation, girls are also provided leadership opportunities through the MILES curriculum, where adolescents lead sessions, activities, and peer engagement initiatives within schools and communities.
-SVF currently implements sport for development initiatives across 22+ states in India, reaching over 80,000 young people annually (50% being girls).`,
+  example: `
+    <p>
+      Through the Sport for Change initiative, SVF delivers mixed-gender school and community-based sport programs designed to create safe and inclusive participation spaces for girls and adolescents. The program also provides leadership opportunities through the MILES curriculum, where young people lead activities, sessions, and peer engagement initiatives within schools and communities.
+SVF currently reaches over 80,000 children and adolescents annually across 22+ states in India, with girls representing approximately 50% of participants.
+    </p>
+  `,
 
   svfImpact: [
     "49% improvement in social-emotional learning (SEL) indicators, including interacting with others, taking initiative, managing conflicts, overcoming difficulties, and following instructions",
     "9% improvement in Fitness Quotient (FQ) among participating girls",
-    "5% improvement in healthy BMI indicators among girls, and increased participation in play and physical activity beyond school hours"
+    "5% improvement in healthy BMI indicators among girls", 
+    "Increased participation in play and physical activity beyond school hours"
   ]
   },
 
@@ -227,21 +282,41 @@ SVF currently implements sport for development initiatives across 22+ states in 
 
     title: "Self-Defense and Safety Awareness Workshops for Girls",
 
-    fit: `Based on your focus on gender empowerment and safe participation spaces for girls, self-defense workshops can help girls build confidence, personal safety awareness, resilience, and the ability to respond to potentially unsafe situations. These interventions are often effective as short-term or high-reach engagement models that can be delivered across schools, communities, and youth spaces.
-In addition to physical preparedness, such workshops also help girls strengthen self-confidence, emotional resilience, and awareness around personal safety and well-being.
+    fit: `
+<p>
+Based on your focus on gender empowerment and creating safe spaces for girls, self-defense workshops can help build confidence, personal safety awareness, resilience, and the ability to respond to potentially unsafe situations.
+</p>
 
-This type of intervention is particularly relevant as concerns around personal safety, harassment, and gender-based violence continue to affect the confidence and freedom of movement of many girls and young women. While broader systemic solutions remain essential, there is growing recognition of the importance of equipping girls with practical self-defense skills, safety awareness, and confidence-building opportunities that strengthen their sense of agency, preparedness, and resilience.`,
+<p>
+These interventions are particularly effective as short-term, high-reach models that can engage large numbers of girls across schools and communities while strengthening both physical preparedness and emotional resilience.
+</p>
 
-    model: `Self-defense workshops are designed to introduce girls to practical techniques that help them respond confidently and safely in uncomfortable or potentially unsafe situations. Alongside physical self-defense skills, sessions also include conversations around emotional well-being, identifying unsafe situations, responding to mental trauma, confidence-building, and seeking support when required.
+<ul class="impactList">
+  <li>Builds confidence and self-agency among girls</li>
+  <li>Strengthens awareness of personal safety and well-being</li>
+  <li>Develops practical self-defense skills</li>
+  <li>Encourages resilience and preparedness in challenging situations</li>
+</ul>
+`,
 
-Programs are usually delivered through trained facilitators and instructors in safe and supportive environments, often through weekly workshops or short-term engagement formats across schools and community settings. These approaches also enable organizations to reach larger groups of girls within shorter implementation timelines.
+    model: `
+<p>
+Self-defense programs combine practical skills training with discussions on safety, emotional well-being, and confidence-building. Sessions are delivered in safe and supportive environments by trained instructors and facilitators.
+</p>
 
-Concerns around personal safety, harassment, and gender-based violence continue to affect the confidence and freedom of movement of many girls and young women. While broader systemic solutions are essential, there is growing recognition of the importance of equipping girls with practical self-defense skills, safety awareness, and confidence-building opportunities that strengthen their sense of agency and preparedness.`,
+<ul class="impactList">
+  <li>Practical self-defense techniques</li>
+  <li>Personal safety and situational awareness training</li>
+  <li>Confidence and resilience-building activities</li>
+  <li>Discussions on emotional well-being and seeking support</li>
+  <li>School and community-based delivery formats</li>
+</ul>
+`,
 
     impacts: [
-      "Increased confidence to handle situations physically and remain mentally strong",
-      "Girls are prepared on how to handle mental trauma",
-      "Enables girls to identify potentially unsafe situations",
+      "Increased confidence and self-agency",
+      "Improved awareness of unsafe situations and personal safety",
+      "Enhanced ability to respond confidently in challenging situations",
 ],
 
   example: `SVF currently implements SHAKTI, a structured self-defense and confidence-building module designed for girls and adolescents across school and community settings. The initiative combines practical self-defense learning with awareness and resilience-building approaches to help girls feel safer, more confident, and better prepared in their daily environments.`,
@@ -251,28 +326,50 @@ SFCpathwayz: {
 
     title: "Integrated Sport for Development and Excellence Pathway Programming",
 
-    fit: `Based on your focus on long-term impact, community engagement, and youth development at scale, integrated sport for development and sports excellence models can help create both broad-based developmental outcomes and structured aspirational pathways for young people.
-These approaches combine foundational sport participation for all children with targeted support for talented young athletes, enabling organizations to create visible community impact while also supporting long-term progression opportunities through sport.
+    fit: `
+<p>
+Based on your focus on long-term impact, youth development, and community engagement, integrated sport for development and excellence models can help create both broad-based developmental outcomes and structured progression pathways for young people.
+</p>
 
-This type of intervention is particularly relevant as many young people, especially in underserved communities, have limited access to both quality developmental opportunities and structured pathways to pursue sporting talent. As a result, communities often struggle to balance broad-based youth development goals with aspirations around excellence, representation, and long-term progression in sport.
+<p>
+While most children benefit from regular sport participation, some also require access to coaching, mentorship, and exposure opportunities to realize their full potential. This approach combines both objectives within a single ecosystem, creating developmental impact at scale while supporting talented young athletes. Given the nature of these outcomes, such programs are typically designed as multi-year initiatives.
+</p>
 
-Because meaningful developmental and excellence outcomes take time to achieve, these models are typically designed as multi-year initiatives with a minimum implementation horizon of three years. Sustained engagement enables participants to benefit from both foundational development opportunities and structured pathways for progression within sport.`,
+<ul class="impactList">
+  <li>Combines developmental and aspirational outcomes within one model</li>
+  <li>Creates opportunities for all children while supporting high-potential youth</li>
+  <li>Strengthens long-term engagement and retention</li>
+  <li>Builds community aspiration and visibility through sport</li>
+</ul>
+`,
 
-    model: `The model usually begins with a structured sport for development program delivered through schools and community ecosystems. These foundational programs focus on regular sport participation, physical literacy, social-emotional learning, leadership development, school engagement, and healthy lifestyles among children and adolescents. School sports days/events are also held to promote healthy competition amongst the participants.
+    model: `
+<p>
+The model combines foundational sport programming with structured athlete development pathways. Children participate in regular sport and life skills activities, while selected participants access additional coaching, mentorship, competitions, and progression opportunities.
+</p>
 
-Alongside broad-based participation, selected students and youth with demonstrated interest and talent potential are identified for structured sports excellence pathways. These participants receive sport-specific coaching, mentorship, access to training opportunities, and support such as kits, equipment, infrastructure access, tournament participation, trials, and exposure opportunities.
-
-The developmental focus of the foundational layer is centered around improving engagement, confidence, social-emotional learning, and well-being, while the excellence pathway focuses on enabling progression into higher-performance ecosystems such as academies, clubs, district/state pathways, scholarships, and competitive opportunities.`,
+<ul class="impactList">
+  <li>School and community-based sport participation</li>
+  <li>Physical literacy, life skills, and leadership development through structured curricula</li>
+  <li>Talent identification and athlete development pathways</li>
+  <li>Coaching, mentorship, and competition exposure</li>
+  <li>Access to progression opportunities within organized sport ecosystems</li>
+</ul>
+`,
 
     impacts: [
-      "Increased participation and long-term engagement in structured sport",
+      "Increased participation and long-term engagement in sport",
       "Improved social-emotional learning, leadership, and life skills",
-      "Creation of aspirational pathways for talented young athletes",
+      "Improved school engagement and healthier lifestyle behaviors",
+      "Structured pathways for talented young athletes",
+      "Increased community engagement and visibility",
       "Access to competitive pathways, scholarships, academies, and progression opportunities"
     ],
 
-  example: `SVF currently implements integrated sport for development and sports excellence initiatives across multiple states in India through its Sport for Change and PathwayZ programming models. These initiatives combine large-scale foundational sport participation with structured athlete identification and development pathways for children and adolescents from underserved communities.
-Through long-term school and community engagement, participants receive opportunities for both holistic development and progression within organized sport ecosystems.`,
+  example: `
+    <p>
+      SVF implements integrated sport for development and excellence initiatives through its Sport for Change and PathwayZ programs. These initiatives combine large-scale sport participation with structured athlete identification and development pathways, enabling children and adolescents to benefit from both holistic development opportunities and progression within organized sport ecosystems.
+    </p>`,
 
   },
 
@@ -280,25 +377,48 @@ Through long-term school and community engagement, participants receive opportun
 
     title: "Community-Based Sports Excellence and Athlete Pathway Programming",
 
-    fit: `Based on your focus on aspirational youth development, community engagement, and visibility through sport, sports excellence pathway programs can help identify and support talented young athletes from underserved communities to progress within organized sport ecosystems.
-These approaches are particularly relevant for organizations looking to create visible youth achievement outcomes, strengthen community aspiration, and support long-term athlete development opportunities through structured training and exposure.
+    fit: `
+<p>
+Based on your focus on youth development, community engagement, and visibility through sport, athlete pathway programs can help identify and support talented young athletes from underserved communities to progress within organized sport ecosystems.
+</p>
 
-However, many talented young athletes are identified late or discontinue participation due to limited access to structured training opportunities, competitive exposure, and local support systems. Community-based pathway programs help address this gap by creating accessible entry points for talent identification and athlete development closer to where young people live, making progression opportunities more visible and accessible within their communities.`,
+<p>
+These approaches create aspirational opportunities for young people while generating visible community impact through athlete achievement, progression, and success stories.
+</p>
 
-    model: `Sports excellence pathway programs are usually designed to identify young athletes with talent potential through community outreach, grassroots engagement activities, and open trials conducted across schools and community settings.
+<ul class="impactList">
+  <li>Creates structured pathways for talented young athletes</li>
+  <li>Strengthens community aspiration and youth engagement</li>
+  <li>Supports long-term athlete development and progression</li>
+  <li>Generates visible outcomes through athlete achievement</li>
+</ul>
+`,
 
-Selected participants are then enrolled into structured sport-specific training programs delivered through identified training centers and development hubs. These centers are typically strengthened through investments in coaching, equipment, facilities, and athlete support systems to create safe and high-quality learning environments for long-term athlete development.
+    model: `
+<p>
+Athlete pathway programs combine grassroots talent identification with structured coaching, mentorship, and progression opportunities. Participants receive support to develop their sporting potential while accessing opportunities within organized sport ecosystems.
+</p>
 
-Participants often also receive support such as kits, nutrition guidance, tournament exposure, mentorship, access to trials and camps, and opportunities to progress into academies, clubs, scholarship programs, and competitive sport pathways. Often, participants and parents are also exposed to career awareness workshops to understand career pathways in and beyond sport.`,
+<ul class="impactList">
+  <li>Community outreach, talent identification, and trials</li>
+  <li>Structured coaching and athlete development programs</li>
+  <li>Access to equipment, training facilities, and mentorship</li>
+  <li>Tournament participation and competitive exposure</li>
+  <li>Linkages to academies, scholarships, clubs, and advanced pathways</li>
+</ul>
+`,
 
     impacts: [
       "Identification and development of talented young athletes",
       "Increased access to structured coaching and training opportunities",
       "Increased community engagement and visibility through athlete progression",
-      "GreatStrengthened access to tournaments, trials, camps, and scholarship opportunities"
+      "Strengthened access to tournaments, trials, camps, and scholarships"
     ],
 
-  example: `Through PathwayZ, SVF supports community-based athlete identification and development initiatives focused on creating structured pathways for talented young athletes from underserved backgrounds. The initiative combines grassroots outreach and trials with sport-specific coaching, mentorship, and progression support through identified training centers and partner ecosystems.`,
+  example: `
+    <p>
+      Through PathwayZ, SVF supports community-based athlete identification and development initiatives that combine grassroots outreach with structured coaching, mentorship, and progression support.
+    </p>`,
 
   svfImpact: [
     "3,189 student-athletes trained through Sports Development Centers (SDCs)",
@@ -312,45 +432,88 @@ Participants often also receive support such as kits, nutrition guidance, tourna
 
     title: "High-Performance Athlete Support and Progression Programming",
 
-    fit: `Based on your focus on high-visibility youth development and sports excellence outcomes, athlete support and progression programs can help talented young athletes continue their sporting journeys by reducing financial, structural, and access-related barriers that often limit long-term participation in competitive sport.
-These initiatives are particularly relevant for organizations looking to support visible achievement pathways, strengthen athlete progression opportunities, and contribute to representation from underserved communities within higher-performance sport ecosystems.
+    fit: `
+<p>
+Based on your focus on youth development, sports excellence, and high-visibility outcomes, athlete support programs can help talented young athletes overcome financial, structural, and access-related barriers that often limit progression within competitive sport.
+</p>
 
-Many promising athletes face significant financial, logistical, and developmental barriers as they progress through competitive sport systems. Costs associated with training, travel, recovery, nutrition, competition participation, and career planning often limit progression, even among athletes who have already demonstrated high potential. Athlete support programs help address these challenges by providing targeted assistance that enables talented young people to remain within competitive sport pathways and continue pursuing excellence.
+<p>
+These initiatives focus on a smaller group of high-potential athletes, creating opportunities for advancement while increasing representation from underserved communities within higher-performance sport ecosystems.
+</p>
 
-Because of the specialized nature of support provided, these programs are typically high-investment and high-visibility initiatives focused on a smaller group of athletes with demonstrated competitive potential.`,
+<ul class="impactList">
+  <li>Supports talented athletes with demonstrated competitive potential</li>
+  <li>Reduces barriers to long-term participation and progression</li>
+  <li>Creates visible achievement and representation outcomes</li>
+  <li>Strengthens pathways into higher-performance sport environments</li>
+  <li>Best suited for organizations seeking focused, high-visibility investment in a smaller cohort of athletes</li>
+</ul>
+`,
 
-    model: `High-performance athlete support programs usually work with athletes who are already participating at district, state, or higher competitive levels. Athletes are identified through existing sport networks, federations, academies, competitions, and community outreach processes, with some programs also conducting targeted scouting and trials to identify promising talent requiring support.
+    model: `
+<p>
+Athlete support programs provide holistic assistance to help athletes sustain participation and progress within competitive sport. Support is tailored to individual needs and often delivered in partnership with coaches, academies, federations, and sport ecosystems.
+</p>
 
-Support provided is often holistic and designed to help athletes sustain participation and progression within competitive sport ecosystems. This may include financial stipends, coaching support, physiotherapy and rehabilitation access, nutrition guidance, tournament travel support, training camp participation, mental well-being support, career awareness workshops, and anti-doping education.
-
-The overall objective is not only to improve competitive performance, but also to create safer, more sustainable, and development-oriented pathways for athletes navigating high-performance sport environments.`,
+<ul class="impactList">
+  <li>Financial assistance and athlete sponsorship</li>
+  <li>Coaching, mentorship, and performance support</li>
+  <li>Access to competitions, camps, and exposure opportunities</li>
+  <li>Nutrition, rehabilitation, and well-being support</li>
+  <li>Connections to academies, scholarships, and advanced development pathways</li>
+</ul>
+`,
 
     impacts: [
       "Increased access to structured athlete development opportunities",
       "Reduced financial and access-related barriers for talented athletes",
       "Improved participation in competitions, camps, and exposure opportunities",
-      "Increased visibility and representation from grassroots communities in competitive sport"
+      "Increased visibility and representation from grassroots communities in competitive sport",
+      "Stronger progression pathways within organized sport ecosystems"
     ],
 
-  example: `Through PathwayZ36, SVF supports athletes already participating within competitive sport ecosystems through structured progression and athlete support initiatives. The program works with athletes, coaches, federations, and partner ecosystems to strengthen access to opportunities, exposure, and long-term athlete development support.
-SVF’s broader sports excellence initiatives have supported athlete participation across district, state, and national competitions, while also enabling connections to academies, scholarships, and higher-performance learning environments.`,
+  example: `
+    <p>
+      Through PathwayZ36, SVF supports athletes already participating within competitive sport ecosystems through structured athlete sponsorship and progression support. The program works with athletes, coaches, federations, and partner organizations to strengthen access to training, exposure, and long-term development opportunities.
+SVF's broader sports excellence initiatives have supported athlete participation across district, state, and national competitions, while also enabling connections to academies, scholarships, and higher-performance learning environments.
+    </p>`,
   },
 
   digital: {
 
     title: "Technology-Enabled Sport and Physical Activity Programming",
 
-    fit: `Based on your focus on scalable implementation, technology-enabled delivery, and long-term sustainability, digital sport and physical activity programs can help expand access to structured sport participation across large geographies and participant groups in a cost-effective manner. These approaches are particularly relevant for organizations looking to strengthen school-based sport ecosystems while building long-term ownership within schools and communities.
+    fit: `
+<p>
+Based on your focus on scalable implementation, educator capacity building, technology-enabled delivery, and long-term sustainability, digital sport and physical activity programs can help expand access to structured sport participation across large geographies and participant groups in a cost-effective manner.
+</p>
 
-Despite growing recognition of the value of structured sport and physical activity, many schools and communities continue to lack access to trained coaches, facilitators, and ongoing implementation support. This challenge becomes even more significant when programs aim to reach large numbers of participants across multiple locations while maintaining quality and consistency. Technology-enabled approaches are increasingly being used to address these gaps by expanding access to quality content, training local champions, and supporting large-scale implementation across diverse geographies.`,
+<p>
+These approaches enable organizations to reach more children and young people while building the capacity of teachers, youth leaders, and communities to sustain sport participation beyond the life of a project.
+</p>
 
-    model: `Technology-enabled sport programs use digital tools, videos, and guided learning resources to help teachers, youth leaders, and community members deliver structured sport and physical activity sessions within schools and community settings.
-The model usually begins with capacity-building workshops conducted in partnership with schools, local institutions, and in some cases, state education bodies and government stakeholders. Subject teachers, PE teachers, and youth leaders who demonstrate interest and motivation to lead sport activities are identified and trained through initial and refresher workshops focused on structured sport delivery, physical literacy, and activity facilitation.
+<ul class="impactList">
+  <li>Expands access to structured sport and physical activity at scale</li>
+  <li>Builds local capacity to deliver sport-based programs</li>
+  <li>Strengthens long-term sustainability through local ownership</li>
+  <li>Enables cost-effective implementation across multiple locations</li>
+  <li>Particularly suitable for multi-location or large-scale CSR initiatives</li>
+</ul>
+`,
 
-Participants are then provided with digital content and guided implementation support that enables them to conduct regular sport and movement-based sessions independently within their own settings.
-To strengthen implementation quality and long-term adoption, programs often include an initial handholding phase where trained coordinators or instructors regularly visit schools and communities, which differs based on the needs, to provide mentoring, troubleshooting support, and implementation guidance.
+    model: `
+<p>
+Technology-enabled models combine digital learning tools with facilitator training and ongoing implementation support. Teachers, youth leaders, and community members are equipped to independently deliver structured sport and movement-based activities within their own settings.
+</p>
 
-Over time, this approach helps schools and communities gradually take ownership of structured sport participation while enabling large-scale outreach and more sustainable implementation models.`,
+<ul class="impactList">
+  <li>Digital sport and physical activity content</li>
+  <li>Training for teachers, youth leaders, and facilitators</li>
+  <li>Guided implementation and mentoring support</li>
+  <li>Capacity building for schools and community institutions</li>
+  <li>Ongoing monitoring and quality assurance</li>
+</ul>
+`,
 
     impacts: [
       "Expanded access to structured sport and physical activity programming",
@@ -359,23 +522,48 @@ Over time, this approach helps schools and communities gradually take ownership 
       "Scalable implementation across multiple geographies"
     ],
 
-  example: `Through Digital Edusports, SVF supports technology-enabled sport and physical activity initiatives that combine digital learning tools, facilitator training, and guided implementation support to help schools and communities deliver structured sport programming at scale.
-The initiative works closely with teachers, schools, youth leaders, and institutional stakeholders to strengthen long-term ownership and sustainability of structured sport participation models.`,
+  example: `
+    <p>
+      Through Digital Edusports, SVF combines digital learning tools, facilitator training, and guided implementation support to help schools and communities deliver structured sport and physical activity programming at scale.
+The initiative works closely with teachers, youth leaders, schools, and institutional stakeholders to strengthen long-term ownership while expanding access to quality sport participation opportunities across diverse geographies.
+    </p>`,
   },
 
   yogdaan: {
 
     title: "Employee Engagement Through Sport",
 
-    fit: `Based on your focus on employee engagement and community connection, sport-based volunteering and engagement programs can help employees contribute directly to social impact initiatives while also strengthening teamwork, participation, and organizational culture.
-These approaches are particularly effective for organizations looking to create more meaningful employee participation opportunities beyond one-time volunteering activities by enabling employees to engage regularly with children, youth, schools, and communities through interactive and purpose-driven experiences.`,
+    fit: `
+<p>
+Based on your focus on employee engagement and community connection, sport-based volunteering programs can create meaningful opportunities for employees to contribute to social impact initiatives while strengthening teamwork, participation, and organizational culture.
+</p>
 
-    model: `Corporate employee engagement through sport typically combines volunteering, mentorship, and community participation opportunities within school and community-based sport initiatives.
-Employees may participate through activities such as supporting sport events, mentoring young participants, facilitating engagement activities, leading awareness sessions, participating in community sports days, or contributing professional skills and expertise to support implementation.
+<p>
+Unlike one-time volunteering activities, these approaches enable employees to engage directly with children, youth, schools, and communities through interactive and purpose-driven experiences.
+</p>
 
-Programs are usually designed to be flexible and adaptable based on employee availability, organizational priorities, and implementation contexts. Because sport naturally creates interactive and collaborative environments, these initiatives often help strengthen employee participation, team bonding, and connection with communities in a more engaging and informal manner.
+<ul class="impactList">
+  <li>Creates meaningful and hands-on volunteering opportunities</li>
+  <li>Strengthens employee engagement and team bonding</li>
+  <li>SBuilds stronger connections between employees and communities</li>
+  <li>Increases employee ownership of CSR initiatives</li>
+  <li>Supports employee volunteering and purpose-driven engagement goals</li>
+</ul>
+`,
 
-Such programs can also be integrated into larger CSR initiatives to strengthen visibility, employee ownership, and long-term organizational involvement in community development efforts.`,
+    model: `
+<p>
+Sport-based employee engagement programs combine volunteering, mentorship, and community participation opportunities within school and community settings. Activities can be adapted to suit employee interests, organizational priorities, and implementation contexts.
+</p>
+
+<ul class="impactList">
+  <li>Volunteering at sport and community events</li>
+  <li>Mentorship and youth engagement opportunities</li>
+  <li>Employee-led awareness and learning sessions</li>
+  <li>Community sports days and engagement activities</li>
+  <li>Skill-based volunteering aligned to employee expertise</li>
+</ul>
+`,
 
     impacts: [
       "Increased employee participation in CSR initiatives",
@@ -384,8 +572,11 @@ Such programs can also be integrated into larger CSR initiatives to strengthen v
       "Increased visibility and ownership around social impact initiatives"
     ],
 
-  example: `Through Yogdaan, SVF supports employee engagement initiatives that combine sport, volunteering, mentorship, and community participation across schools and community settings. The initiative is designed to create meaningful engagement opportunities for employees while supporting broader youth development and community impact goals.
-Programs can be adapted across different formats depending on organizational priorities, employee participation goals, and target communities`,
+  example: `
+    <p>
+      Through Yogdaan, SVF supports employee engagement initiatives that combine sport, volunteering, mentorship, and community participation across schools and community settings. The initiative is designed to create meaningful employee experiences while contributing to broader youth development and community impact goals.
+Programs can be adapted across different formats depending on organizational priorities, employee participation goals, and target communities.
+    </p>`,
   }
 
 };
