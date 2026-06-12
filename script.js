@@ -384,6 +384,16 @@ const productScores = {
 
 };
 
+function resetScores() {
+
+  Object.keys(productScores).forEach(key => {
+
+    productScores[key] = 0;
+
+  });
+
+}
+
 
 // TRACKING
 
@@ -570,25 +580,64 @@ function loadQuestion() {
 
   // ADD CONTINUE BUTTON FOR MULTI SELECT
 
-  if (current.type === "multi") {
+if (current.type === "multi") {
 
-    const continueBtn = document.createElement("button");
+  const continueBtn = document.createElement("button");
 
-    continueBtn.innerText = "Continue";
+  continueBtn.innerText = "Continue";
 
-    continueBtn.classList.add("continueBtn");
+  continueBtn.classList.add("continueBtn");
 
-    continueBtn.addEventListener("click", () => {
+  continueBtn.addEventListener("click", () => {
 
-      saveAnswer(multiAnswers);
+    saveAnswer(multiAnswers);
+
+  });
+
+  optionsContainer.appendChild(continueBtn);
+
+}
+
+// BACK BUTTON
+
+if (currentQuestion > 0) {
+
+  const backBtn = document.createElement("button");
+
+  backBtn.innerText = "← Back";
+
+  backBtn.classList.add("secondaryBtn");
+
+  backBtn.addEventListener("click", goBack);
+
+  optionsContainer.appendChild(backBtn);
+
+}
+
+}
+
+function goBack() {
+
+  if (currentQuestion > 0) {
+
+    currentQuestion--;
+
+    answers.pop();
+
+    resetScores();
+
+    answers.forEach(item => {
+
+      updateScores(item.answer);
 
     });
 
-    optionsContainer.appendChild(continueBtn);
+    loadQuestion();
 
   }
 
 }
+
 
 // SAVE ANSWERS
 
