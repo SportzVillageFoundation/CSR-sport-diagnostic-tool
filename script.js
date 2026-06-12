@@ -49,12 +49,27 @@ const questions = [
     question: "Who are your primary target groups? (Please select up to 2 options)",
     type: "multi",
     options: [
-      "School children",
-      "Adolescents / youth",
-      "Women & girls",
-      "Rural communities",
-      "Urban underserved communities"
-    ]
+  {
+    label: "School children",
+    description: "Primary, upper-primary and middle school-aged children"
+  },
+  {
+    label: "Adolescents & Youth (13–21 years)",
+    description: "Secondary school students and young adults"
+  },
+  {
+    label: "Women & girls",
+    description: "Girls and women across age groups"
+  },
+  {
+    label: "Teachers & Educators",
+    description: "Teachers, coaches, and school staff"
+  },
+  {
+    label: "Community members",
+    description: "Parents, community youth leaders, and local stakeholders"
+  }
+]
   },
 
   {
@@ -456,12 +471,12 @@ function loadQuestion() {
   progressText.innerText =
     `Question ${currentQuestion + 1} of ${questions.length}`;
 
-    const progressBar = document.getElementById("progressBar");
+  const progressBar = document.getElementById("progressBar");
 
-const progressPercent =
-  ((currentQuestion + 1) / questions.length) * 100;
+  const progressPercent =
+    ((currentQuestion + 1) / questions.length) * 100;
 
-progressBar.style.width = `${progressPercent}%`;
+  progressBar.style.width = `${progressPercent}%`;
 
   questionTitle.innerText = current.question;
 
@@ -469,15 +484,31 @@ progressBar.style.width = `${progressPercent}%`;
 
   multiAnswers = [];
 
-
   current.options.forEach(option => {
 
     const button = document.createElement("button");
 
     button.classList.add("optionBtn");
 
-    button.innerText = option;
+    const optionValue =
+      typeof option === "object"
+        ? option.label
+        : option;
 
+    if (typeof option === "object") {
+
+      button.innerHTML = `
+        <strong>${option.label}</strong>
+        <div class="optionDescription">
+          ${option.description}
+        </div>
+      `;
+
+    } else {
+
+      button.innerText = option;
+
+    }
 
     // SINGLE SELECT
 
@@ -485,57 +516,57 @@ progressBar.style.width = `${progressPercent}%`;
 
       button.addEventListener("click", () => {
 
-        saveAnswer(option);
+        saveAnswer(optionValue);
 
       });
 
     }
 
-
     // MULTI SELECT
 
     if (current.type === "multi") {
 
-  button.addEventListener("click", () => {
+      button.addEventListener("click", () => {
 
-    // REMOVE SELECTION
+        // REMOVE SELECTION
 
-    if (multiAnswers.includes(option)) {
+        if (multiAnswers.includes(optionValue)) {
 
-      multiAnswers = multiAnswers.filter(item => item !== option);
+          multiAnswers = multiAnswers.filter(
+            item => item !== optionValue
+          );
 
-      button.classList.remove("selected");
+          button.classList.remove("selected");
+
+        }
+
+        // ADD SELECTION
+
+        else {
+
+          if (multiAnswers.length < 2) {
+
+            multiAnswers.push(optionValue);
+
+            button.classList.add("selected");
+
+          }
+
+          else {
+
+            alert("Please select a maximum of 2 target groups.");
+
+          }
+
+        }
+
+      });
 
     }
-
-    // ADD SELECTION
-
-    else {
-
-      if (multiAnswers.length < 2) {
-
-        multiAnswers.push(option);
-
-        button.classList.add("selected");
-
-      }
-
-      else {
-
-        alert("Please select a maximum of 2 target groups.");
-
-      }
-
-    }
-
-  });
-
-}
 
     optionsContainer.appendChild(button);
 
   });
-
 
   // ADD CONTINUE BUTTON FOR MULTI SELECT
 
