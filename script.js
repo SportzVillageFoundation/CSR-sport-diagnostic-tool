@@ -403,6 +403,7 @@ let answers = [];
 
 let multiAnswers = [];
 
+let selectedFinalAnswer = null;
 
 // START BUTTON
 
@@ -524,13 +525,33 @@ function loadQuestion() {
 
     if (current.type === "single") {
 
-      button.addEventListener("click", () => {
+  button.addEventListener("click", () => {
 
-        saveAnswer(optionValue);
+    // LAST QUESTION
 
-      });
+    if (currentQuestion === questions.length - 1) {
+
+      document
+        .querySelectorAll(".optionBtn")
+        .forEach(btn => btn.classList.remove("selected"));
+
+      button.classList.add("selected");
+
+      selectedFinalAnswer = optionValue;
 
     }
+
+    // ALL OTHER QUESTIONS
+
+    else {
+
+      saveAnswer(optionValue);
+
+    }
+
+  });
+
+}
 
     // MULTI SELECT
 
@@ -598,6 +619,32 @@ if (current.type === "multi") {
 
 }
 
+  // LAST QUESTION SUBMIT BUTTON
+
+if (currentQuestion === questions.length - 1) {
+
+  const submitBtn = document.createElement("button");
+
+  submitBtn.innerText = "Submit Assessment";
+
+  submitBtn.addEventListener("click", () => {
+
+    if (!selectedFinalAnswer) {
+
+      alert("Please select an option.");
+
+      return;
+
+    }
+
+    saveAnswer(selectedFinalAnswer);
+
+  });
+
+  optionsContainer.appendChild(submitBtn);
+
+}
+ 
 // BACK BUTTON
 
 if (currentQuestion > 0) {
