@@ -143,6 +143,10 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.contentBlock p {
+  margin-bottom: 16px;
+}
+
 .resultsIntro {
   text-align: left;
   color: #555;
