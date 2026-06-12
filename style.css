@@ -104,6 +104,14 @@ button:hover {
   color: white;
 }
 
+.optionDescription {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
 .selected {
   background: black !important;
   color: white !important;
