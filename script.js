@@ -23,7 +23,7 @@ let leadData = {
 const questions = [
 
   {
-    question: "What is your primary CSR focus area?",
+    question: "Which CSR focus area is most relevant to your current priorities?",
     type: "single",
     options: [
       "Education",
@@ -34,7 +34,7 @@ const questions = [
   },
 
   {
-    question: "What primarily drives your CSR investments?",
+    question: "Which of the following feels most aligned with your CSR objectives?",
     type: "single",
     options: [
       "Creating measurable social impact",
