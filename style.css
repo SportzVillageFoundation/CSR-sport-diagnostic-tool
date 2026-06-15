@@ -144,7 +144,18 @@ button:hover {
 }
 
 .contentBlock p {
+  margin-top: 0;
   margin-bottom: 16px;
+}
+
+.contentBlock ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.contentBlock li {
+  margin-bottom: 8px;
 }
 
 .resultsIntro {
@@ -169,7 +180,6 @@ button:hover {
   text-align: left;
   font-size: 16px;
   line-height: 1.7;
-  white-space: pre-line;
 }
 
 .resultCard h3 {
