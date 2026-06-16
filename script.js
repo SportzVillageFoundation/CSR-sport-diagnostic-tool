@@ -149,7 +149,8 @@ Effective school-based sport programs combine structured physical activity with 
     "Increased participation in physical activity",
     "Development of teamwork, leadership, and life skills",
     "Improved confidence and peer interaction",
-    "More inclusive and positive school environments"
+    "More inclusive and positive school environments",
+    "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -204,8 +205,9 @@ School-based programs use structured sport, movement, and play to improve physic
       "Increased participation in regular physical activity",
       "Improved cardiovascular fitness, flexibility, and endurance",
       "Improved physical literacy and movement confidence",
-      "Increased awareness around health and well-being"
-    ],
+      "Increased awareness around health and well-being",
+      "Increased visibility of your organization's social impact initiatives."
+      ],
 
   example: `
     <p>
@@ -260,7 +262,8 @@ Gender-responsive sport programs use structured sport, movement, and play-based 
       "Increased participation in social spaces and self-expression",
       "Improved school attendance and retention among adolescent girls",
       "Greater awareness of gender inclusion and equality",
-      "Reduced risk of school dropout amongst girls"
+      "Reduced risk of school dropout amongst girls",
+      "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -316,7 +319,8 @@ Self-defense programs combine practical skills training with discussions on safe
     impacts: [
       "Increased confidence and self-agency",
       "Improved awareness of unsafe situations and personal safety",
-      "Enhanced ability to respond confidently in challenging situations",
+      "Enhanced ability to respond confidently in challenging situations",,
+      "Increased visibility of your organization's social impact initiatives."
 ],
 
   example: `SVF currently implements SHAKTI, a structured self-defense and confidence-building module designed for girls and adolescents across school and community settings. The initiative combines practical self-defense learning with awareness and resilience-building approaches to help girls feel safer, more confident, and better prepared in their daily environments.`,
@@ -363,7 +367,8 @@ The model combines foundational sport programming with structured athlete develo
       "Improved school engagement and healthier lifestyle behaviors",
       "Structured pathways for talented young athletes",
       "Increased community engagement and visibility",
-      "Access to competitive pathways, scholarships, academies, and progression opportunities"
+      "Access to competitive pathways, scholarships, academies, and progression opportunities",
+      "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -412,7 +417,8 @@ Athlete pathway programs combine grassroots talent identification with structure
       "Identification and development of talented young athletes",
       "Increased access to structured coaching and training opportunities",
       "Increased community engagement and visibility through athlete progression",
-      "Strengthened access to tournaments, trials, camps, and scholarships"
+      "Strengthened access to tournaments, trials, camps, and scholarships",
+      "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -469,7 +475,8 @@ Athlete support programs provide holistic assistance to help athletes sustain pa
       "Reduced financial and access-related barriers for talented athletes",
       "Improved participation in competitions, camps, and exposure opportunities",
       "Increased visibility and representation from grassroots communities in competitive sport",
-      "Stronger progression pathways within organized sport ecosystems"
+      "Stronger progression pathways within organized sport ecosystems",
+      "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -519,7 +526,8 @@ Technology-enabled models combine digital learning tools with facilitator traini
       "Expanded access to structured sport and physical activity programming",
       "Capacity building for teachers, youth leaders, and community members",
       "Increased sustainability through school and community ownership",
-      "Scalable implementation across multiple geographies"
+      "Scalable implementation across multiple geographies",
+      "Increased visibility of your organization's social impact initiatives."
     ],
 
   example: `
@@ -959,7 +967,7 @@ function updateScores(answer) {
 
     if (item === "Gender Equality") {
 
-      productScores.sfcGender += 15;
+      productScores.sfcGender += 30;
       productScores.SFCpathwayz += 3;
       productScores.shakti += 6;
       productScores.pathwayz += 1;
@@ -991,7 +999,7 @@ function updateScores(answer) {
 
       productScores.pathwayz += 25;
       productScores.SFCpathwayz += 15;
-      productScores.pathwayz36 += 10;
+      productScores.pathwayz36 += 15;
       productScores.sfcEducation -= 5;
       productScores.sfcHealth -= 5;
       productScores.sfcGender -= 5;
@@ -1008,7 +1016,7 @@ function updateScores(answer) {
 
       productScores.pathwayz += 15;
       productScores.SFCpathwayz += 5;
-      productScores.pathwayz36 += 7;
+      productScores.pathwayz36 += 30;
       productScores.shakti += 1;
       productScores.yogdaan += 3;
 
@@ -1043,24 +1051,25 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 70;
+      productScores.sfcGender += 60;
       productScores.SFCpathwayz += 4;
       productScores.shakti += 30;
-      productScores.pathwayz += 1;
+      productScores.pathwayz += 4;
 
     }
 
     if (item === "Rural communities") {
 
-      productScores.pathwayz += 15;
-      productScores.pathwayz36 += 10;
+      productScores.pathwayz += 25;
+      productScores.pathwayz36 += 20;
       productScores.SFCpathwayz += 8;
 
     }
 
     if (item === "Urban underserved communities") {
 
-      productScores.pathwayz += 5;
+      productScores.pathwayz += 20;
+      productScores.pathwayz36 += 15;
       productScores.SFCpathwayz += 5;
       productScores.sfcEducation += 3;
       productScores.sfcHealth += 3;
@@ -1075,6 +1084,7 @@ function updateScores(answer) {
       productScores.digital += 5;
       productScores.sfcEducation += 3;
       productScores.sfcHealth += 3;
+      productScores.sfcGender += 3;
       productScores.pathwayz36 += 1;
 
     }
@@ -1083,6 +1093,7 @@ function updateScores(answer) {
 
       productScores.sfcEducation += 4;
       productScores.SFCpathwayz += 5;
+      productScores.sfcGender += 5;
       productScores.sfcHealth += 4;
       productScores.pathwayz += 3;
       productScores.pathwayz36 += 1;
@@ -1092,18 +1103,19 @@ function updateScores(answer) {
     if (item === "₹80 lakhs – ₹1.2 crores") {
 
       productScores.sfcEducation += 4;
-      productScores.SFCpathwayz += 5;
+      productScores.SFCpathwayz += 8;
       productScores.sfcHealth += 4;
-      productScores.pathwayz += 2;
-      productScores.pathwayz36 += 1;
+      productScores.sfcGender += 4;
+      productScores.pathwayz += 5;
+      productScores.pathwayz36 += 5;
 
     }
 
     if (item === "Above ₹1.2 crores") {
 
-      productScores.pathwayz += 4;
+      productScores.pathwayz += 5;
       productScores.SFCpathwayz += 5;
-      productScores.pathwayz36 += 3;
+      productScores.pathwayz36 += 5;
 
     }
 
@@ -1112,29 +1124,36 @@ function updateScores(answer) {
 
     if (item === "Single location") {
 
-      productScores.sfcEducation += 5;
-      productScores.SFCpathwayz += 4;
-      productScores.sfcHealth += 5;
-      productScores.shakti += 3;
-      productScores.pathwayz += 1;
+      productScores.sfcEducation += 2;
+      productScores.SFCpathwayz += 3;
+      productScores.pathwayz36 += 8;
+      productScores.sfcHealth += 2;
+      productScores.sfcGender += 2;
+      productScores.shakti += 2;
+      productScores.pathwayz += 10;
 
     }
 
     if (item === "Multiple locations") {
 
       productScores.digital += 5;
-      productScores.SFCpathwayz += 4;
+      productScores.SFCpathwayz += 5;
       productScores.pathwayz += 3;
-      productScores.pathwayz += 1;
+      productScores.sfcEducation += 5;
+      productScores.SFCpathwayz += 4;
+      productScores.sfcHealth += 5;
+      productScores.sfcGender += 4;
 
     }
 
     if (item === "Not decided yet") {
 
       productScores.sfcEducation += 5;
+      productScores.sfcGender += 5;
       productScores.SFCpathwayz += 5;
       productScores.sfcHealth += 5;
-      productScores.pathwayz += 3;
+      productScores.pathwayz += 5;
+      productScores.pathwayz36 += 5;
         }
 
 
@@ -1143,7 +1162,7 @@ function updateScores(answer) {
     if (item === "100 - 500 participants") {
 
       productScores.pathwayz += 5;
-      productScores.pathwayz36 += 3;
+      productScores.pathwayz36 += 5;
       productScores.shakti += 1;
 
     }
@@ -1154,12 +1173,14 @@ function updateScores(answer) {
       productScores.SFCpathwayz += 5;
       productScores.sfcEducation += 3;
       productScores.sfcHealth += 3;
+      productScores.sfcGender += 3;
 
     }
 
     if (item === "2,000 - 5,000 participants") {
 
       productScores.sfcEducation += 4;
+      productScores.sfcGender += 4;
       productScores.SFCpathwayz += 5;
       productScores.sfcHealth += 4;
       productScores.pathwayz += 2;
@@ -1173,6 +1194,7 @@ function updateScores(answer) {
       productScores.SFCpathwayz += 4;
       productScores.sfcEducation += 2;
       productScores.sfcHealth += 2;
+      productScores.sfcGender += 2;
 
     }
 
