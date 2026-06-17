@@ -989,7 +989,6 @@ function updateScores(answer) {
 
       productScores.sfcEducation += 5;
       productScores.sfcHealth += 5;
-      productScores.sfcGender += 5;
       productScores.SFCpathwayz += 4;
       productScores.pathwayz += 3;
 
@@ -1076,39 +1075,39 @@ function updateScores(answer) {
 
     if (item === "₹25 – 40 lakhs") {
 
-      productScores.digital += 5;
-      productScores.sfcEducation += 3;
-      productScores.sfcHealth += 3;
-      productScores.sfcGender += 3;
+      productScores.digital += 1;
+      productScores.sfcEducation += 2;
+      productScores.sfcHealth += 2;
+      productScores.sfcGender += 2;
       productScores.pathwayz36 += 1;
 
     }
 
     if (item === "₹40 – 80 lakhs") {
 
-      productScores.sfcEducation += 4;
-      productScores.SFCpathwayz += 5;
-      productScores.sfcGender += 5;
-      productScores.sfcHealth += 4;
-      productScores.pathwayz += 3;
-      productScores.pathwayz36 += 1;
+      productScores.sfcEducation += 2;
+      productScores.SFCpathwayz += 2;
+      productScores.sfcGender += 2;
+      productScores.sfcHealth += 2;
+      productScores.pathwayz += 2;
+      productScores.pathwayz36 += 2;
 
     }
 
     if (item === "₹80 lakhs – ₹1.2 crores") {
 
-      productScores.sfcEducation += 4;
-      productScores.SFCpathwayz += 8;
-      productScores.sfcHealth += 4;
-      productScores.sfcGender += 4;
-      productScores.pathwayz += 5;
-      productScores.pathwayz36 += 5;
+      productScores.sfcEducation += 2;
+      productScores.SFCpathwayz += 4;
+      productScores.sfcHealth += 2;
+      productScores.sfcGender += 2;
+      productScores.pathwayz += 6;
+      productScores.pathwayz36 += 6;
 
     }
 
     if (item === "Above ₹1.2 crores") {
 
-      productScores.pathwayz += 8;
+      productScores.pathwayz += 6;
       productScores.SFCpathwayz += 4;
       productScores.pathwayz36 += 6;
 
@@ -1143,12 +1142,12 @@ function updateScores(answer) {
 
     if (item === "Not decided yet") {
 
-      productScores.sfcEducation += 5;
-      productScores.sfcGender += 5;
-      productScores.SFCpathwayz += 5;
-      productScores.sfcHealth += 5;
-      productScores.pathwayz += 5;
-      productScores.pathwayz36 += 5;
+      productScores.sfcEducation += 2;
+      productScores.sfcGender += 2;
+      productScores.SFCpathwayz += 2;
+      productScores.sfcHealth += 2;
+      productScores.pathwayz += 2;
+      productScores.pathwayz36 += 2;
         }
 
 
