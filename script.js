@@ -976,9 +976,9 @@ function updateScores(answer) {
 
     if (item === "Livelihoods & Employability") {
 
-      productScores.pathwayz += 5;
-      productScores.SFCpathwayz += 4;
-      productScores.pathwayz36 += 3;
+      productScores.pathwayz += 9;
+      productScores.SFCpathwayz += 5;
+      productScores.pathwayz36 += 6;
 
     }
 
@@ -997,9 +997,9 @@ function updateScores(answer) {
 
     if (item === "Strengthening community relationships") {
 
-      productScores.pathwayz += 25;
-      productScores.SFCpathwayz += 15;
-      productScores.pathwayz36 += 15;
+      productScores.pathwayz += 30;
+      productScores.SFCpathwayz += 5;
+      productScores.pathwayz36 += 20;
       productScores.sfcEducation -= 5;
       productScores.sfcHealth -= 5;
       productScores.sfcGender -= 5;
@@ -1008,7 +1008,7 @@ function updateScores(answer) {
 
     if (item === "Leveraging technology") {
 
-      productScores.digital += 10;
+      productScores.digital += 20;
 
     }
 
@@ -1043,9 +1043,9 @@ function updateScores(answer) {
 
     if (item === "Adolescents & Youth (13–21 years)") {
 
-      productScores.pathwayz += 4;
+      productScores.pathwayz += 5;
       productScores.SFCpathwayz += 5
-      productScores.pathwayz36 += 1;
+      productScores.pathwayz36 += 4;
 
     }
 
@@ -1060,15 +1060,15 @@ function updateScores(answer) {
 
     if (item === "Community members") {
 
-      productScores.pathwayz += 25;
-      productScores.pathwayz36 += 20;
+      productScores.pathwayz += 30;
+      productScores.pathwayz36 += 25;
       productScores.SFCpathwayz += 8;
 
     }
 
     if (item === "Teachers & Educators") {
 
-      productScores.digital += 10;
+      productScores.digital += 20;
     }
 
 
@@ -1108,9 +1108,9 @@ function updateScores(answer) {
 
     if (item === "Above ₹1.2 crores") {
 
-      productScores.pathwayz += 5;
-      productScores.SFCpathwayz += 5;
-      productScores.pathwayz36 += 5;
+      productScores.pathwayz += 8;
+      productScores.SFCpathwayz += 4;
+      productScores.pathwayz36 += 6;
 
     }
 
