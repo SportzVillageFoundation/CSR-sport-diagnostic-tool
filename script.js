@@ -1041,7 +1041,7 @@ function updateScores(answer) {
 
     }
 
-    if (item === "Adolescents / youth") {
+    if (item === "Adolescents & Youth (13–21 years)") {
 
       productScores.pathwayz += 4;
       productScores.SFCpathwayz += 5
@@ -1051,14 +1051,14 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 60;
+      productScores.sfcGender += 40;
       productScores.SFCpathwayz += 4;
-      productScores.shakti += 30;
+      productScores.shakti += 20;
       productScores.pathwayz += 4;
 
     }
 
-    if (item === "Rural communities") {
+    if (item === "Community members") {
 
       productScores.pathwayz += 25;
       productScores.pathwayz36 += 20;
@@ -1066,14 +1066,9 @@ function updateScores(answer) {
 
     }
 
-    if (item === "Urban underserved communities") {
+    if (item === "Teachers & Educators") {
 
-      productScores.pathwayz += 20;
-      productScores.pathwayz36 += 15;
-      productScores.SFCpathwayz += 5;
-      productScores.sfcEducation += 3;
-      productScores.sfcHealth += 3;
-
+      productScores.digital += 10;
     }
 
 
@@ -1231,9 +1226,9 @@ function updateScores(answer) {
     allAnswers.includes("Above ₹1.2 crores")
   ) {
 
-    productScores.pathwayz += 10;
+    productScores.pathwayz += 9;
     productScores.SFCpathwayz += 8;
-    productScores.pathwayz36 += 6;
+    productScores.pathwayz36 += 12;
 
   }
 
@@ -1367,20 +1362,7 @@ if (
 
     productScores.pathwayz += 4;
 
-  }
-
-// COMMUNITY RELATIONSHIPS PRIORITY
-
-if (
-  allAnswers.includes("Strengthening community relationships")
-) {
-
-  productScores.pathwayz += 15;
-  productScores.SFCpathwayz += 12;
-
-  productScores.sfcEducation -= 8;
-  productScores.sfcHealth -= 8;
-}
+ }
 
   // GENDER + SOCIAL IMPACT
 
