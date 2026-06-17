@@ -996,9 +996,9 @@ function updateScores(answer) {
 
     if (item === "Strengthening community relationships") {
 
-      productScores.pathwayz += 30;
+      productScores.pathwayz += 20;
       productScores.SFCpathwayz += 5;
-      productScores.pathwayz36 += 20;
+      productScores.pathwayz36 += 15;
       productScores.sfcEducation -= 5;
       productScores.sfcHealth -= 5;
       productScores.sfcGender -= 5;
@@ -1059,9 +1059,9 @@ function updateScores(answer) {
 
     if (item === "Community members") {
 
-      productScores.pathwayz += 30;
-      productScores.pathwayz36 += 25;
-      productScores.SFCpathwayz += 8;
+      productScores.pathwayz += 15;
+      productScores.pathwayz36 += 10;
+      productScores.SFCpathwayz += 5;
 
     }
 
@@ -1120,11 +1120,11 @@ function updateScores(answer) {
 
       productScores.sfcEducation += 2;
       productScores.SFCpathwayz += 3;
-      productScores.pathwayz36 += 8;
+      productScores.pathwayz36 += 4;
       productScores.sfcHealth += 2;
       productScores.sfcGender += 2;
       productScores.shakti += 2;
-      productScores.pathwayz += 10;
+      productScores.pathwayz += 5;
 
     }
 
