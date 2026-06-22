@@ -1050,7 +1050,7 @@ function updateScores(answer) {
 
     if (item === "Women & girls") {
 
-      productScores.sfcGender += 40;
+      productScores.sfcGender += 55;
       productScores.SFCpathwayz += 4;
       productScores.shakti += 20;
       productScores.pathwayz += 4;
