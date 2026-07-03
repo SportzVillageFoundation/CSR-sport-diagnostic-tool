@@ -23,13 +23,14 @@ let leadData = {
 const questions = [
 
   {
-    question: "Which CSR focus area is most relevant to your current priorities?",
+    question: "Which area of impact would you most like to address through sport?",
     type: "single",
     options: [
       "Education",
       "Health & Well-being",
       "Gender Equality",
-      "Livelihoods & Employability"
+      "Livelihoods & Employability",
+      "Sports Excellence"
     ]
   },
 
@@ -982,6 +983,11 @@ function updateScores(answer) {
 
     }
 
+    if (item === "Sports Excellence") {
+
+  productScores.pathwayz += 15;
+  productScores.pathwayz36 += 12;
+}
 
     // CSR DRIVER
 
@@ -1231,6 +1237,16 @@ function updateScores(answer) {
 
   }
 
+  // SPORTS EXCELLENCE PRIORITY
+
+if (
+  allAnswers.includes("Sports Excellence")
+) {
+
+  productScores.pathwayz += 10;
+  productScores.pathwayz36 += 8;
+
+}
 
   // BRAND VISIBILITY + WOMEN & GIRLS
 
