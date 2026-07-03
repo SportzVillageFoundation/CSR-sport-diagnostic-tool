@@ -985,8 +985,8 @@ function updateScores(answer) {
 
     if (item === "Sports Excellence") {
 
-  productScores.pathwayz += 15;
-  productScores.pathwayz36 += 12;
+  productScores.pathwayz += 12;
+  productScores.pathwayz36 += 15;
 }
 
     // CSR DRIVER
@@ -1243,8 +1243,8 @@ if (
   allAnswers.includes("Sports Excellence")
 ) {
 
-  productScores.pathwayz += 10;
-  productScores.pathwayz36 += 8;
+  productScores.pathwayz += 8;
+  productScores.pathwayz36 += 10;
 
 }
 
